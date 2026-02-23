@@ -121,19 +121,15 @@ a {
   top: 28px;
   left: 50%;
   transform: translateX(-50%);
-
-  width: 1344px;
+  width: 1440px;  /* Aumenta da 1344px a 1440px */
   height: 83.64px;
-
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
-
   background-color: #fff350;
   border-radius: 49px;
   padding: 20px 48px;
-
   z-index: 1000;
   box-sizing: border-box;
 }
