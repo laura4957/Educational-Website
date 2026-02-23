@@ -1124,10 +1124,7 @@ a {
   color: #FFFFF2;
 }
 
-.vices {
-  padding: 6rem 0;
-  background-color: #f8f8f8;
-}
+
 
 .services__header {
   display: flex;
@@ -1154,13 +1151,7 @@ a {
   text-underline-offset: 0.5rem;
 }
 
-.services__description {
-  font-size: 1.125rem;
-  line-height: 1.7;
-  color: #382e2e;
-  max-width: 900px;
-  margin-bottom: 4rem;
-}
+
 
 .clients {
   padding: 4rem 0;
@@ -1209,5 +1200,276 @@ a {
 
   .footer__info {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+/* ===================================
+   TABLET (768px - 1023px)
+   =================================== */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+  /* HEADER */
+  
+  .header {
+    width: calc(100% - 48px);
+    left: 24px;
+    transform: none;
+    padding: 16px 32px;
+    height: auto;
+  }
+  
+   .header__content {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .header__logo {
+    width: 120px;
+    height: auto;
+  }
+  
+  .logo-img {
+    width: 120px;
+    height: auto;
+  }
+  .nav-list {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .nav-link {
+    font-size: 0.8rem;
+    padding: 0.25rem;
+  }
+  
+  /* HERO SECTION */
+  .hero {
+    padding: 100px 48px 80px 48px;
+    height: auto;
+    min-height: 600px;
+  }
+  
+  .hero__content {
+    width: 100%;
+    max-width: 672px;
+    gap: 48px;
+  }
+  
+  .hero__title {
+    width: 100%;
+    height: auto;
+    font-size: 72px;
+  }
+  
+  .hero__header-subcontent {
+    flex-direction: column;
+    width: 100%;
+    gap: 24px;
+  }
+  
+  .hero__subtitle {
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+  }
+  
+  .hero__description {
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+  }
+  
+  /* ABOUT SECTION */
+  .about {
+    padding: 48px 48px;
+    width: 100%;
+  }
+  
+  .about__container {
+    width: 100%;
+    max-width: 672px;
+    margin: 0 auto;
+  }
+  
+  .about__headline {
+    width: 100%;
+    padding-right: 0;
+  }
+  
+  .about__eyebrow {
+    width: 100%;
+    font-size: 12px;
+  }
+  
+  .about__title {
+    width: 100%;
+    height: auto;
+    font-size: 48px;
+  }
+  
+  .about__content {
+    flex-direction: column;
+    width: 100%;
+    gap: 24px;
+  }
+  
+  .about__content p {
+    width: 100%;
+  }
+  
+  /* IMAGE SECTION */
+ .image-section {
+    width: 800px;
+    height: 720px;
+    margin: 0 auto;
+  }
+  
+  /* OFFERING SECTION */
+  .offering-section {
+    padding: 48px 48px;
+  }
+  
+  .offering__frame {
+    width: 100%;
+    max-width: 672px;
+    gap: 32px;
+  }
+  
+  .offering__headline {
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  
+  .offering__head {
+    width: 100%;
+    height: auto;
+    font-size: 48px;
+  }
+  
+  .offering__subhead-container {
+    width: 100%;
+    padding-right: 0;
+  }
+  
+  .offering__subhead-text {
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+  }
+  
+  .offering__card-container {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 16px;
+    display: grid;
+  }
+  
+  .offering__card {
+    width: 100%;
+  }
+  
+  /* PARTNER SECTION */
+  .partner-section {
+    padding: 64px 48px;
+  }
+  
+  .partner__headline {
+    width: 100%;
+    max-width: 672px;
+    font-size: 24px;
+  }
+  
+  .partner__brand {
+    width: 100%;
+    max-width: 672px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+  }
+  
+  /* VALUE SECTION */
+  .value-section {
+    padding: 80px 48px;
+    height: auto;
+    min-height: 400px;
+  }
+  
+  .value__content {
+    width: 100%;
+    max-width: 672px;
+  }
+  
+  .value__eyebrow {
+    width: 100%;
+    font-size: 12px;
+  }
+  
+  .value__title {
+    width: 100%;
+    height: auto;
+    font-size: 48px;
+  }
+  
+  /* FOOTER */
+ .footer {
+    padding: 48px 48px 48px 48px;
+    height: auto;
+    min-height: auto;
+  }
+  
+  .footer__container-top {
+    flex-direction: column;
+    width: 100%;
+    max-width: 672px;
+    padding: 48px 0;
+    gap: 48px;
+  }
+  
+  .footer__content {
+    width: 100%;
+  }
+  
+  .footer__text {
+    width: 100%;
+  }
+  
+  .footer__payoff {
+    width: 100%;
+  }
+  
+  .footer__nav-primary {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  
+  .footer__container-bottom {
+    width: 100%;
+    max-width: 672px;
+    height: auto;
+  }
+  
+  .footer__bottom-content {
+    width: 100%;
+  }
+  
+  .footer__bottom-frame,
+  .footer__frame {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  
+  .footer__column01,
+  .footer__col01,
+  .footer__col02,
+  .footer__col03 {
+    width: 100%;
+    max-width: 320px;
   }
 }
